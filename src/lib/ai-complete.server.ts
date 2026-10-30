@@ -105,7 +105,7 @@ async function completeViaOpenAI(
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: "gpt-5-mini",
+        model: "gpt-5.6-terra",
         stream: true,
         messages,
         ...jsonFormat(jsonSchema),
