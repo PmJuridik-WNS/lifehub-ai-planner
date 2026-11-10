@@ -1,0 +1,2 @@
+GitHub connector write access verification.
+This file is not used by the application.
